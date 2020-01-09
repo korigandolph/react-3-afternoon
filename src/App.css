@@ -2,6 +2,75 @@
   text-align: center;
 }
 
+.text{
+  height:300px;
+  width: 75%;
+  background-color: gainsboro;
+  padding: 100px;
+}
+
+.from{
+  font-weight: bold;
+}
+.title{
+  font-weight: bold;
+}
+.employer{
+  font-weight: bold;
+}
+.movie{
+  font-weight: bold;
+}
+.body{
+  background-color: black;
+  padding: 50px;
+  height: 100vh;
+}
+.buttons{
+  display: flex;
+  margin:50px;
+  justify-content: space-between;
+}
+
+.previous{
+  background-color: transparent;
+  color: white;
+  border: none;
+  font-size: large;
+}
+
+.next{
+  background-color: transparent;
+  color: white;
+  border: none;
+  font-size: large;
+}
+.name{
+  font-weight: bold;
+  font-size: xx-large;
+  text-decoration: underline;
+  text-decoration-color: cornflowerblue;
+}
+.id{
+  font-weight: bold;
+  float: right;
+  font-size: larger;
+}
+.header-container{
+  height: 75px;
+  width: 100%;
+  background-color: cornflowerblue;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 30px;
+  font-weight: bold;
+} 
+
+.middle-button{
+  justify-content: right;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
